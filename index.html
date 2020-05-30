@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html style="height: 100%; width: 100%;">
   <head>
     <title>Idea Oven</title>
     <meta charset="utf-8" />
@@ -12,10 +12,99 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Poppins|Raleway"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"
+    ></script>
   </head>
-  <body class="is-preload">
-    <!-- Header -->
+  <body
+    style="
+      background-color: #111;
+      height: 100%;
+      overflow-x: hidden;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+    "
+    class="is-preload"
+  >
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div
+        style="
+          /* width: 100%; */
+          /* padding: 30px; */
+          /* padding-top: 50px; */
+          margin: auto;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex: 3;
+          padding: 30px;
+        "
+      >
+        <img
+          style="padding-bottom: 10px;"
+          src="logo.png"
+          alt="Logo"
+          height="70"
+          width="70"
+        />
+        <h1 id="#myElement" style="font-size: 1.6em; color: #fff;">
+          Idea Oven | The Idea App for Creators.
+        </h1>
+        <p style="color: rgba(255, 255, 255, 0.5); max-width: 615px;">
+          More than anything else, it requires focus and persistence to realize
+          your ideas. Idea Oven was designed with this philosophy from the
+          ground up.
+        </p>
+        <a
+          href="https://twitter.com/idea_oven"
+          style="
+            color: #fff;
+            padding: 10px 15px;
+            margin: 5px;
+            text-decoration: none;
+            border: solid white;
+            border-radius: 10px;
+          "
+          type="submit"
+        >
+          In Closed Beta</a
+        >
+      </div>
+      <div
+        style="
+          margin: 0;
+          padding: 0;
+          flex: 1;
+          display: flex;
+          align-content: end;
+        "
+      >
+        <img
+          src="images/idea_oven_screenshot.png"
+          style="height: 300px; padding: 0; margin: 0;"
+        />
+      </div>
+    </div>
+    <!--
+
+    
     <header id="header">
       <img
         style="padding-bottom: 10px;"
@@ -24,7 +113,7 @@
         height="100"
         width="100"
       />
-      <h1 style="font-size: 1.6em;">
+      <h1 id="#myElement" style="font-size: 1.6em;">
         Idea Oven | The Idea App for Creators.
       </h1>
       <p>
@@ -33,11 +122,15 @@
         it's for those who review, refine and iterate their ideas.
       </p>
     </header>
-    <button onclick="location.href='https://twitter.com/idea_oven';" style="width: 200px; height: 3rem;" type="submit">
+    <button
+      onclick="location.href='https://twitter.com/idea_oven';"
+      style="width: 200px; height: 3rem;"
+      type="submit"
+    >
       Check Twitter For Updates
     </button>
 
-    <!-- Footer -->
+    
     <footer id="footer">
       <ul class="copyright">
         <li>
@@ -48,7 +141,7 @@
       </ul>
     </footer>
 
-    <!-- Scripts -->
-    <script src="assets/js/main.js"></script>
+    
+    -->
   </body>
 </html>
