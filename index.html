@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html style="height: 100%; width: 100%;">
+<html>
   <head>
     <title>Idea Oven</title>
     <meta charset="utf-8" />
@@ -16,54 +16,18 @@
       href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Poppins|Raleway"
       rel="stylesheet"
     />
+
+    <link href="assets/css/main.css" rel="stylesheet" />
+
     <script
       type="module"
       src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"
     ></script>
   </head>
-  <body
-    style="
-      background-color: #111;
-      height: 100%;
-      overflow-x: hidden;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
-    "
-    class="is-preload"
-  >
-    <div
-      style="
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: space-between;
-        align-items: center;
-      "
-    >
-      <div
-        style="
-          /* width: 100%; */
-          /* padding: 30px; */
-          /* padding-top: 50px; */
-          margin: auto;
-          text-align: center;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          flex: 3;
-          padding: 30px;
-        "
-      >
-        <img
-          style="padding-bottom: 10px;"
-          src="logo.png"
-          alt="Logo"
-          height="70"
-          width="70"
-        />
+  <body class="is-preload">
+    <div id="main-div">
+      <div id="top-div">
+        <img id="logo" src="logo.png" alt="Logo" height="70" width="70" />
         <h1 id="#myElement" style="font-size: 1.6em; color: #fff;">
           Idea Oven | The Idea App for Creators.
         </h1>
@@ -74,32 +38,14 @@
         </p>
         <a
           href="https://twitter.com/idea_oven"
-          style="
-            color: #fff;
-            padding: 10px 15px;
-            margin: 5px;
-            text-decoration: none;
-            border: solid white;
-            border-radius: 10px;
-          "
+          id="action-button"
           type="submit"
         >
           In Closed Beta</a
         >
       </div>
-      <div
-        style="
-          margin: 0;
-          padding: 0;
-          flex: 1;
-          display: flex;
-          align-content: end;
-        "
-      >
-        <img
-          src="images/idea_oven_screenshot.png"
-          style="height: 300px; padding: 0; margin: 0;"
-        />
+      <div id="bottom-div">
+        <img src="images/idea_oven_screenshot.png" id="screenshot" />
       </div>
     </div>
     <!--
